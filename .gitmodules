@@ -1,0 +1,3 @@
+[submodule "parcel-transformer-transcrypt"]
+	path = parcel-transformer-transcrypt
+	url = https://github.com/steamraven/parcel-transformer-transcrypt.git

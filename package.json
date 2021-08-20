@@ -1,0 +1,40 @@
+{
+  "name": "dash",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "steamraven@yahoo.com"
+  },
+  "scripts": {
+    "build": "rm -r __transcrypt__ ; parcel build --no-optimize --no-cache --log-level verbose  src/index.html",
+    "serve": "rm -r __transcrypt__ ; parcel --no-cache --log-level verbose src/index.html"
+  },
+  "dependencies": {
+    "natural": "^5.0.4",
+    "primeflex": "^3.0.1",
+    "primeicons": "^4.1.0",
+    "primevue": "^3.6.4",
+    "vue": "^3.2.2",
+    "vuedraggable": "^4.0.3"
+  },
+  "devDependencies": {
+    "@parcel/optimizer-data-url": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-inline-string": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "@parcel/transformer-vue": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-transformer-transcrypt": "file:parcel-transformer-transcrypt",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.0"
+  },
+  "_id": "dash@0.0.1",
+  "license": "MIT",
+  "readme": "ERROR: No README data found!",
+  "parcel-transformer-transcrypt": {
+    "xpath": "src"
+  },
+  "sass": {
+    "includePaths": ["/node-modules"]
+  }
+}
